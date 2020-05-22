@@ -12,3 +12,6 @@ LIBS = -lkirk
 
 all:
 	gcc $(OBJS) -I$(INCDIR) -o $(TARGET) -L$(LDFLAGS) $(LIBS)
+	
+clean:
+	rm $(TARGET)
